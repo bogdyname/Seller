@@ -9,7 +9,7 @@ html
 
 body
 {
-  background-image: url('img/blue1.jpg');
+  background-color: #FFFFFF;
   background-repeat: no-repeat;
 }
 
@@ -96,4 +96,62 @@ article
 {
     height: 40px;
     width: 100px;
+}
+
+.footer_wrap {
+  border-top: 1px solid #e8e8e8;
+  max-width: 925px;
+  margin: 10px auto 0;
+  padding: 28px 0 34px;
+}
+.footer_mobile {
+  display: none;
+}
+.footer_columns_wrap {
+  padding-left: 0;
+  padding: 0 0 0 63px;
+  margin: 0;
+}
+.footer_column {
+  float: left;
+  padding-right: 78px;
+}
+.footer_column_telegram {
+  width: 290px;
+  padding-right: 50px;
+}
+.footer_column:last-child {
+  padding-right: 0;
+}
+.footer_column:first-child {
+  padding-left: 0;
+}
+.footer_column h5 {
+  font-size: 14px;
+  margin-top: 0;
+  margin-bottom: 9px;
+}
+.footer_column h5 a {
+  color: inherit;
+}
+.footer_column ul,
+.footer_column ul li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.footer_column ul li {
+  font-size: 14px;
+  line-height: 23px;
+}
+.footer_privacy_description {
+  padding-top: 3px;
+  font-size: 13px;
+  line-height: 160%;
+}
+.footer_privacy_description p {
+  margin-bottom: 6px;
+}
+.footer_telegram_description {
+  font-size: 13px;
 }
