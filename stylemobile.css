@@ -68,8 +68,8 @@ article
     background-image: url('img/freechat.jpg');
     background-repeat: no-repeat;
     background-position: center center;
-    width: 240px;
-    height: 60px;
+    width: 100px;
+    height: 40px;
     background-size: contain;
     transition: width .5s ease-in-out, height .5s ease-in-out;
 }
@@ -100,7 +100,7 @@ article
 
 .footer_wrap {
   border-top: 1px solid #e8e8e8;
-  max-width: 925px;
+  max-width: 250px;
   margin: 10px auto 0;
   padding: 28px 0 34px;
 }
@@ -117,8 +117,8 @@ article
   padding-right: 78px;
 }
 .footer_column_freechat {
-  width: 300px;
-  padding-right: 90px;
+  width: 290px;
+  padding-right: 50px;
 }
 .footer_column:last-child {
   padding-right: 0;
@@ -155,3 +155,4 @@ article
 .footer_telegram_description {
   font-size: 13px;
 }
+
