@@ -160,3 +160,38 @@ article
 .footer_freechat_description {
   font-size: 13px;
 }
+
+.freechat_download_btn {
+  display: inline-block;
+  vertical-align: top;
+  font-weight: normal;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  background-image: none;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  color: #fff;
+  border-color: #357ebd;
+  padding: 10px 14px;
+  width: 256px;
+  font-size: 15px;
+  line-height: 2;
+  border-radius: 30px;
+  background-color: #1d98dc;
+  margin: 5px 10px;
+}
+.freechat_download_btn_wrap {
+  display: inline-block;
+  vertical-align: top;
+}
+.freechat_download_btn_wrap .freechat_download_btn,
+.freechat_download_btn_wrap .freechat_download_add {
+  display: block;
+}
+.freechat_download_btn_wrap .freechat_download_add {
+  margin-top: 10px;
+}
