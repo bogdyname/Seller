@@ -27,9 +27,14 @@ html
     box-sizing: inherit;
 }
 
+.link-download
+{
+
+}
+
 article
 {
-    color: #FFFFFF;
+    color: #000000;
     height: 900px;
     padding: 5%;
     margin: 2% auto;
