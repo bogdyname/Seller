@@ -29,7 +29,27 @@ html
 
 .link-download
 {
-
+  display: inline-block;
+  vertical-align: top;
+  font-weight: normal;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  background-image: none;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  color: #fff;
+  border-color: #357ebd;
+  padding: 10px 14px;
+  width: 256px;
+  font-size: 15px;
+  line-height: 2;
+  border-radius: 30px;
+  background-color: #1d98dc;
+  margin: 5px 10px;
 }
 
 article
@@ -44,6 +64,7 @@ article
 
 
 .site-header
+
 {
     background: #fff;
     padding: 20px 5%;
