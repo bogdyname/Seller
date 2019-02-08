@@ -27,6 +27,31 @@ html
     box-sizing: inherit;
 }
 
+.windows-download
+{
+
+}
+
+.osx-download
+{
+
+}
+
+.linux-download
+{
+
+}
+
+.android-download
+{
+
+}
+
+.ios-download
+{
+  
+}
+
 .link-download
 {
   display: inline-block;
