@@ -27,6 +27,44 @@ html
     box-sizing: inherit;
 }
 
+.download
+{
+  padding-right: 0;
+  padding: 0 0 0 1000px;
+  margin: 0;
+}
+
+.logo-image
+{
+  width: 100px;
+  height: 100px;
+}
+
+.link-download
+{
+  display: inline-block;
+  vertical-align: top;
+  font-weight: normal;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  background-image: none;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  color: #fff;
+  border-color: #357ebd;
+  padding: 10px 14px;
+  width: 225px;
+  font-size: 15px;
+  line-height: 2;
+  border-radius: 30px;
+  background-color: #000000;
+  margin: 5px 10px;
+}
+
 article
 {
     color: #000000;

@@ -27,29 +27,17 @@ html
     box-sizing: inherit;
 }
 
-.windows-download
+.download
 {
-
+  padding-right: 0;
+  padding: 0 0 0 1000px;
+  margin: 0;
 }
 
-.osx-download
+.logo-image
 {
-
-}
-
-.linux-download
-{
-
-}
-
-.android-download
-{
-
-}
-
-.ios-download
-{
-  
+  width: 100px;
+  height: 100px;
 }
 
 .link-download
@@ -73,7 +61,7 @@ html
   font-size: 15px;
   line-height: 2;
   border-radius: 30px;
-  background-color: #1d98dc;
+  background-color: #000000;
   margin: 5px 10px;
 }
 
@@ -128,7 +116,7 @@ article
 
 .site-header nav
 {
-    text-align: right;
+    text-align: center;
     -webkit-box-flex: 1;
     -ms-flex-positive: 1;
     flex-grow: 1;
