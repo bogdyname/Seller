@@ -32,12 +32,22 @@ html
   padding-right: 0;
   padding: 0 0 0 1000px;
   margin: 0;
+  display: block;
+  margin: 0 auto;
 }
 
 .logo-image
 {
-  width: 100px;
-  height: 100px;
+  width: 135px;
+  height: 135px;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+  line-height: 135px;
+  margin: 0px;
+  padding: 0px;
+  display: block;
+  margin: 0 auto;
 }
 
 .link-download
