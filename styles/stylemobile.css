@@ -37,14 +37,6 @@ html
 
 .logo-image
 {
-  width: 135px;
-  height: 135px;
-  display: table-cell;
-  vertical-align: middle;
-  text-align: center;
-  line-height: 135px;
-  margin: 0px;
-  padding: 0px;
   display: block;
   margin: 0 auto;
 }
