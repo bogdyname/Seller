@@ -9,12 +9,13 @@ html
 
 A
 {
-    color: #0000CD;
+    color: #FF0000;
+    text-decoration: none;
 }
 
 A:visited
 {
-    color: #FFFFFF;
+    color: #0000CD  ;
 }
 
 A:active
@@ -42,8 +43,10 @@ html
     box-sizing: inherit;
 }
 
-.description
+.description,
+p:before
 {
+  content: "Description --";
   font-family: 'LetterGothicStd';
   src: url(fonts/LetterGothicStd.otf);
   src: url(fonts/LetterGothicStd.otf?iefix) format(otf),
@@ -52,6 +55,7 @@ html
   url(fonts/LetterGothicStd.svg#webfont) format(svg);
   font-weight: normal;
   font-style: normal;
+  direction: ltr;
 }
 
 .download
