@@ -7,26 +7,39 @@ html
     background: #eee;
 }
 
-A
+#link-style
 {
-    color: #FF0000;
+    color: #FFFFFF;
     text-decoration: none;
 }
 
-A:visited
+#link-style:visited
 {
-    color: #0000CD  ;
+    color: #0000CD;
+    text-decoration: none;
 }
 
-A:active
+#link-style:active
 {
     color: #4B0082;
+    text-decoration: none;
+}
+
+a
+{
+  color: inherit;
+  text-decoration: inherit;
 }
 
 body
 {
   background-color: #FFFFFF;
   background-repeat: no-repeat;
+  width: 100%;
+  min-width: 1600px;
+  max-width: 1920px;
+  margin: 0;
+  padding: 0;
 }
 
 html
@@ -35,6 +48,7 @@ html
     -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
+
 
 *,
 *::before,
@@ -244,30 +258,6 @@ article
   font-size: 13px;
 }
 
-.freechat_download_btn
-{
-  display: inline-block;
-  vertical-align: top;
-  font-weight: normal;
-  text-align: center;
-  vertical-align: middle;
-  cursor: pointer;
-  background-image: none;
-  white-space: nowrap;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  color: #fff;
-  border-color: #357ebd;
-  padding: 10px 14px;
-  width: 256px;
-  font-size: 15px;
-  line-height: 2;
-  border-radius: 30px;
-  background-color: #1d98dc;
-  margin: 5px 10px;
-}
 .freechat_download_btn_wrap
 {
   display: inline-block;
