@@ -32,36 +32,37 @@ html
   left: 0;
   width: 0;
   height: 2px;
-  backgroud-color: #FFFFFF;
+  background-color: #FFFFFF;
   content: "";
   transition: width 0.3s ease-out;
 }
 
 a
 {
-  position: relative;
-  color: inherit;
-  text-decoration: inherit;
-  cursor: pointer;
-  line-height: 1;
+	position: relative;
+	color: inherit;
+	cursor: pointer;
+	line-height: 1;
+	text-decoration: inherit;
+
 }
 
-.link-download .download #link-style a:after
+a:after
 {
-  display: block;
-  position: absolute;
-  left: 0;
-  width: 0;
-  height: 2px;
-  backgroud-color: #FFFFFF;
-  content: "";
-  transition: width 0.3s ease-out;
+	display: block;
+	position: absolute;
+	left: 0;
+	width: 0;
+	height: 2px;
+	background-color: #FFFFFF;
+	content: "";
+	transition: width 0.5s ease-out;
 }
 
-.link-download .download #link-style a:hover:after,
-.link-download .download #link-style a:focus:after
+a:hover:after,
+a:focus:after
 {
-  width: 100%;
+	width: 100%;
 }
 
 body
@@ -103,6 +104,8 @@ p:before
   font-weight: normal;
   font-style: normal;
   direction: ltr;
+  text-align: center;
+  margin: 0;
 }
 
 .download
@@ -112,13 +115,13 @@ p:before
   padding: 0 0 0 1000px;
   margin: 0;
   display: block;
-  margin: 0 auto;
+  margin: 0;
 }
 
 .logo-image
 {
   display: block;
-  margin: 0 auto;
+  margin: 0;
   margin-top: 25px;
 }
 
@@ -144,7 +147,7 @@ p:before
   line-height: 2;
   border-radius: 30px;
   background-color: #000000;
-  margin: 5px 10px;
+  margin: 0;
 }
 
 article
