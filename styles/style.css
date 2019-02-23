@@ -10,6 +10,19 @@ html
     box-sizing: border-box;
 }
 
+p
+{
+  font-size: 1.2em;
+  padding: 5px 10px;
+  margin-right: 5px;
+  background: #EE9966;
+  color: #FAF4F4;
+  float: left;
+  border-radius: 50% 0;
+  font-weight: bold;
+  text-shadow: -1px -1px 1px white, 1px 1px 1px #9E9D99;
+}
+
 #link-style
 {
     color: #FFFFFF;
