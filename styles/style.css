@@ -12,7 +12,8 @@ html
 
 p
 {
-  font-size: 1em;
+  position: absolute;
+  font-size: 1.2em;
   padding: 5px 10px;
   margin: 5px;
   background: #000000;
@@ -20,7 +21,6 @@ p
   float: left;
   border-radius: 25% 0;
   font-weight: bold;
-  text-shadow: -1px -1px 1px white, 1px 1px 1px #9E9D99;
 }
 
 #link-style
@@ -136,6 +136,9 @@ p:before
 
 .logo-image
 {
+  position: absolute;
+  top: 25%;
+  left: 49%;
   float: center;
   display: block;
   margin: 0;
