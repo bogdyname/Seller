@@ -1,5 +1,4 @@
-# **freechatinc.org**
-## **Site for Freechat messenger**
+# **softwater.org**
 ## **Copyleft (C) 2019 Softwater, Inc.**
 ####  **Everyone is permitted to copy and distribute verbatim copies of this license document, but changing it is not allowed.**
 ####  				**Preamble**
