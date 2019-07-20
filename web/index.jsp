@@ -44,6 +44,28 @@
         </ul>
       </div>
     </nav>
-      <h1>Hello World!</h1>
+    <main role="main">
+      <div id="mainPageCarousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li class="active" data-target="#mainPageCarousel" data-slide-to="0"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img">
+              <rect width="100%" height="100%" fill="#777"></rect>
+            </svg>
+            <div class="container">
+              <div class="carousel-caption">
+                <h1>Freechat</h1>
+                <p>We create Freechat for free and secure communication. We use a modern approach to messaging between clients.</p>
+                <p>
+                  <a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
   </body>
 </html>
