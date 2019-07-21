@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!--Custom styles-->
     <link href="css/styles.css" rel="stylesheet">
+    <link href="css/carousel.css" rel="stylesheet">
   </head>
   <body>
     <!--Bootstrap core JS-->
@@ -44,10 +45,12 @@
         </ul>
       </div>
     </nav>
+    <!--Main content-->
     <main role="main">
       <div id="mainPageCarousel" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
           <li class="active" data-target="#mainPageCarousel" data-slide-to="0"></li>
+          <li class="" data-target="#mainPageCarousel" data-slide-to="1"></li>
         </ol>
         <div class="carousel-inner">
           <div class="carousel-item active">
@@ -64,8 +67,42 @@
               </div>
             </div>
           </div>
+          <div class="carousel-item">
+            <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img">
+              <rect width="100%" height="100%" fill="#777"></rect>
+            </svg>
+            <div class="container">
+              <div class="carousel-caption">
+                <h1>Wys</h1>
+                <p>We design a new programming language that will be smart and convenient.</p>
+                <p>
+                  <a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a>
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
+        <a class="carousel-control-prev" href="#mainPageCarousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#mainPageCarousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
       </div>
+      <!--FOOTER-->
+      <footer class="container">
+        <p class="float-right">
+          <a href="#">Back to top</a>
+        </p>
+        <p>
+          © 2018-2019 Softwater, Inc. ·
+          <a href="#">Privacy</a>
+          ·
+          <a href="#">Terms</a>
+        </p>
+      </footer>
     </main>
   </body>
 </html>
