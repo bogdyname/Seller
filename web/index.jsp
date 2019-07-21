@@ -55,7 +55,7 @@
         <div class="carousel-inner">
           <div class="carousel-item active">
             <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img">
-              <rect width="100%" height="100%" fill="#777"></rect>
+              <img src="img/1.jpeg">
             </svg>
             <div class="container">
               <div class="carousel-caption">
@@ -69,12 +69,12 @@
           </div>
           <div class="carousel-item">
             <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img">
-              <rect width="100%" height="100%" fill="#777"></rect>
+              <img src="img/1.png">
             </svg>
             <div class="container">
               <div class="carousel-caption">
                 <h1>Wys</h1>
-                <p>We design a new programming language that will be smart and convenient.</p>
+                <p>We design a new user-friendly programming language created for simplified work of specialists in the field of software development.</p>
                 <p>
                   <a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a>
                 </p>
