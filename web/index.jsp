@@ -17,7 +17,7 @@
     <link href="css/styles.css" rel="stylesheet">
     <link href="css/carousel.css" rel="stylesheet">
   </head>
-  <body>
+  <body class="d-flex flex-column h-100">
     <!--Bootstrap core JS-->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
@@ -69,7 +69,7 @@
           </div>
           <div class="carousel-item">
             <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img">
-              <img src="img/1.png">
+              <img src="img/2.png">
             </svg>
             <div class="container">
               <div class="carousel-caption">
@@ -91,18 +91,18 @@
           <span class="sr-only">Next</span>
         </a>
       </div>
-      <!--FOOTER-->
-      <footer class="container">
-        <p class="float-right">
-          <a href="#">Back to top</a>
-        </p>
-        <p>
-          © 2018-2019 Softwater, Inc. ·
-          <a href="#">Privacy</a>
-          ·
-          <a href="#">Terms</a>
-        </p>
-      </footer>
     </main>
+    <!--footer-->
+    <footer class="container">
+      <p class="float-right">
+        <a href="#">Back to top</a>
+      </p>
+      <p>
+        © 2018-2019 Softwater, Inc. ·
+        <a href="#">Privacy</a>
+        ·
+        <a href="#">Terms</a>
+      </p>
+    </footer>
   </body>
 </html>
