@@ -1,0 +1,13 @@
+# list of npm
+npm-debug.log*
+package-lock.json
+
+# modules
+node_modules
+
+# folder of OSX
+.DS_Store
+
+# timers
+*.tmp
+*~
