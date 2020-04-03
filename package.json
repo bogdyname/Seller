@@ -1,0 +1,26 @@
+{
+  "name": "softwater.org",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bogdyname/softwater.org.git"
+  },
+  "keywords": [
+    "website",
+    "softwater"
+  ],
+  "author": "bogdyname@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bogdyname/softwater.org/issues"
+  },
+  "homepage": "https://github.com/bogdyname/softwater.org#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  }
+}
