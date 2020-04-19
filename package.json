@@ -2,9 +2,10 @@
   "name": "softwater.org",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,10 @@
   "bugs": {
     "url": "https://github.com/bogdyname/softwater.org/issues"
   },
-  "homepage": "https://github.com/bogdyname/softwater.org#readme"
+  "homepage": "https://github.com/bogdyname/softwater.org#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-graphql": "^0.9.0",
+    "graphql": "^15.0.0"
+  }
 }
