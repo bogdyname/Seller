@@ -1,12 +1,8 @@
-const pg = require('pg');
-const pool = new pg.Pool({
-user: 'root',
-host: '127.0.0.1',
-database: 'softwater',
-password: 'tts',
-port: '5454'});
+var http = require('http');
 
-pool.query('SELECT NOW()', (err, res) => {
-  console.log(err, res);
-  pool.end();
-});
+http.createServer(function(req, res){
+  res.writeHead(200, {'content-type': 'text/plain'});
+  res.end("Server is running\n");
+}).listen(7676);
+
+console.log('Server is running on port 7676');
