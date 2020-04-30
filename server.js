@@ -10,11 +10,11 @@ colors.setTheme({
   note: 'blue'
 });
 
-//own modules 
+//own modules
 var database = require('./database/maindb');
 
 http.createServer(function(req, res){
-  
+
 }).listen(7676);
 
 console.log('Server is running on port 7676'.warning);
