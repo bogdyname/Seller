@@ -1,13 +1,4 @@
 # i3 config file (v4)
-#
-# Please see https://i3wm.org/docs/userguide.html for a complete reference!
-#
-# This config file uses keycodes (bindsym) and was written for the QWERTY
-# layout.
-#
-# To get a config file with the same key positions, but for your current
-# layout, use the i3-config-wizard
-#
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
@@ -162,12 +153,8 @@ bindsym Mod1+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcu
 
 #OWN CODE
 
+#Setting up display
 exec --no-startup-id xrandr --output DP-1 --left-of VGA-1
-
-#OWN CODE
-
-
-#OWN CODE
 
 bindsym Mod1+Control+l exec i3lock
 bindsym Mod1+Control+w exec firefox
